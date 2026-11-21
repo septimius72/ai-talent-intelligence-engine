@@ -3,7 +3,7 @@
 A lightweight, Python-based recruiting automation toolkit built with the **Google GenAI SDK (`gemini-2.5-flash`)** and **Pydantic**. Designed to eliminate manual top of funnel triage, discover open-source AI builders on GitHub, and generate structured candidate calibration sheets for technical hiring managers.
 
 ## 🎯 Why I Built This
-High-stakes technical recruiting—especially across **Agentic AI, ML/Data, Security, and Product** fails when recruiters rely on generic keyword matching. This repository demonstrates a pragmatic "AI-assisted, human-finished" workflow:
+High-stakes technical recruiting especially across **Agentic AI, ML/Data, Security, and Product** fails when recruiters rely on generic keyword matching. This repository demonstrates a pragmatic "AI-assisted, human-finished" workflow:
 1. **Automated Discovery (`github_ai_sourcer.py`):** Queries the GitHub REST API for active contributors in specific technical ecosystems (e.g., MCP servers, Python agent frameworks), summarizes their repositories, and uses Gemini to score relevance and draft technical outreach hooks.
 2. **Structured Rubric Calibration (`batch_profile_scorer.py`):** Ingests exported candidate CSVs (from LinkedIn Recruiter or Lever ATS), evaluates each profile against a strict hiring rubric using **Pydantic structured JSON outputs**, and exports a ranked shortlist with tailored interview questions.
 
